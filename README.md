@@ -72,5 +72,3 @@ Direct 55-aa predictions did not recover the selected reference contacts. Templa
 ## Reproducibility
 
 The code preserves the original numerical workflow with documented path and dependency changes. A spacing-sensitive threshold bug in the final geometry check was corrected and rerun; details are in [Methods and limitations](docs/METHODS_AND_LIMITATIONS.md). The validation metadata distinguishes executed analysis checks from reconstruction/minimisation stages not rerun during packaging. This is not a fresh end-to-end reproduction of the Protenix predictions.
-
-Source code was prepared with OpenAI Codex assistance. Scientific interpretation requires researcher review. No project-wide software licence is assigned; third-party tools retain their own licence terms.
