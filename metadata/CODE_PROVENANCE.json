@@ -1,0 +1,113 @@
+[
+  {
+    "script": "scripts/01_audit_predictions.py",
+    "original": "analysis/new55_first_check_20260917/audit.py",
+    "original_sha256": "74c2d13d2710efe13024266b93d29fe8861b7633a6fa2ae378afd4eea81d2857",
+    "export_sha256": "e971a8e7bbdaf69a3ed7cfa2a97245fa01a2797c5b65966cd2f3f30965c8c680",
+    "changes": "Portable input/output paths and filenames; report-only text omitted where applicable. Steps 09 and 14 have explicit documented changes in docs/METHODS_AND_LIMITATIONS.md."
+  },
+  {
+    "script": "scripts/02_map_reference.py",
+    "original": "analysis/new55_spatial_recheck/recheck.py",
+    "original_sha256": "5bfa36c9d7623d215a07a3c16ad2cf676b7bd7229db855083bcc58a8604ed09a",
+    "export_sha256": "7d1de17d2888333455792076077a6279ba461f6feecf5c948f002557a15f0790",
+    "changes": "Portable input/output paths and filenames; report-only text omitted where applicable. Steps 09 and 14 have explicit documented changes in docs/METHODS_AND_LIMITATIONS.md."
+  },
+  {
+    "script": "scripts/03_check_superposition.py",
+    "original": "analysis/new55_spatial_recheck/control.py",
+    "original_sha256": "cd05de12723a65eb885b201351cc4acb1063bd6e0113bcd21a9f9d1918b4848c",
+    "export_sha256": "18b7aea9120d06fb30bb7e10e0461eb786c8aff3eb8cb94673fb30f5b2e9301a",
+    "changes": "Portable input/output paths and filenames; report-only text omitted where applicable. Steps 09 and 14 have explicit documented changes in docs/METHODS_AND_LIMITATIONS.md."
+  },
+  {
+    "script": "scripts/04_scan_interfaces.py",
+    "original": "analysis/new55_spatial_recheck/actual_interface.py",
+    "original_sha256": "48f83ccf1570332c5114a7fbec91b893829f4f5b56333c0e89a153200d648e8c",
+    "export_sha256": "2a7d66e97395725df17d6e032881f03ecf0f4d0c8aec6218f4660bf149e3f304",
+    "changes": "Portable input/output paths and filenames; report-only text omitted where applicable. Steps 09 and 14 have explicit documented changes in docs/METHODS_AND_LIMITATIONS.md."
+  },
+  {
+    "script": "scripts/05_build_reference_guides.py",
+    "original": "analysis/new55_spatial_recheck/prepare_reference_guides.py",
+    "original_sha256": "68db6886c760ff67ae406ad1c90ee74697d8e053a327801caafb547cfd3a4078",
+    "export_sha256": "191e99c8af7b0242698dd54924eb4f88d5e604593ba9f2c8fcff33dde94419b7",
+    "changes": "Portable input/output paths and filenames; report-only text omitted where applicable. Steps 09 and 14 have explicit documented changes in docs/METHODS_AND_LIMITATIONS.md."
+  },
+  {
+    "script": "scripts/06_test_rigid_placements.py",
+    "original": "analysis/reference_guided55/build_rigid_starts.py",
+    "original_sha256": "96a78abd20567fdaae223da2d8ba30aa3fe8bdd0406b6ace38de85fff09aa1f8",
+    "export_sha256": "56c09e260a1d2a7f57da34c1a505b30d6e4e1e6f5bf12af0ea3aa084f42b3075",
+    "changes": "Portable input/output paths and filenames; report-only text omitted where applicable. Steps 09 and 14 have explicit documented changes in docs/METHODS_AND_LIMITATIONS.md."
+  },
+  {
+    "script": "scripts/07_build_template_models.py",
+    "original": "analysis/reference_guided55/build_template55.py",
+    "original_sha256": "5c81dd544e983d9ecf5a49012871b614cc8b09452be6401017da7b9f217d7839",
+    "export_sha256": "f6a1a5e0d53d71d7ea790f1199e6fd24ed6f65f8d8ab85e1a911460cb1e7a18f",
+    "changes": "Portable input/output paths and filenames; report-only text omitted where applicable. Steps 09 and 14 have explicit documented changes in docs/METHODS_AND_LIMITATIONS.md."
+  },
+  {
+    "script": "scripts/08_minimise_fixed_core.py",
+    "original": "analysis/reference_guided55/relax_template55.py",
+    "original_sha256": "7f91856dba43a85581300abf8f0a59b90868cfe179cc7766f739c15f542fd55c",
+    "export_sha256": "c2f7220c779df0a0255ff9a950020092417893e9b7800a6da80a3edb71cf1a4b",
+    "changes": "Portable input/output paths and filenames; report-only text omitted where applicable. Steps 09 and 14 have explicit documented changes in docs/METHODS_AND_LIMITATIONS.md."
+  },
+  {
+    "script": "scripts/09_minimise_flexible_termini.py",
+    "original": "analysis/reference_guided55/relax_template55_flex.py",
+    "original_sha256": "aeb34cdfa4de36a31ab77a9a65aa64be17689f33c049a7cc4bfb5e7b9e2300a3",
+    "export_sha256": "94cfadcce64c40247be09367a5404f4efa5cf4157df427b9a3ff7f4b521c82bb",
+    "changes": "Portable input/output paths and filenames; report-only text omitted where applicable. Steps 09 and 14 have explicit documented changes in docs/METHODS_AND_LIMITATIONS.md."
+  },
+  {
+    "script": "scripts/10_check_rebuilt_models.py",
+    "original": "analysis/reference_guided55/validate_models.py",
+    "original_sha256": "daed30c91baccfe31e1eda44486d7df993ad7b20826d71c7465751c88439fe3e",
+    "export_sha256": "9b8345f37621dedbb5b59b2228d5137d2baf6f701d456cb3353f833c742d2baa",
+    "changes": "Portable input/output paths and filenames; report-only text omitted where applicable. Steps 09 and 14 have explicit documented changes in docs/METHODS_AND_LIMITATIONS.md."
+  },
+  {
+    "script": "scripts/11_audit_interchain_clashes.py",
+    "original": "analysis/reference_guided55/final_audit.py",
+    "original_sha256": "9e7256c1a90e69892dd4273cc6173ec7b5862ce12bfa5714106d222c7d1363a8",
+    "export_sha256": "bb3a352ec209917325e2e79794dd716953251d8c3a5a53a2b1cfb0424390f997",
+    "changes": "Portable input/output paths and filenames; report-only text omitted where applicable. Steps 09 and 14 have explicit documented changes in docs/METHODS_AND_LIMITATIONS.md."
+  },
+  {
+    "script": "scripts/12_scan_candidate_pairs.py",
+    "original": "analysis/experimental_candidates55/screen.py",
+    "original_sha256": "4d7560c84b6747b227b4262f0d83392173ec7a53aead095141f147d2e715559c",
+    "export_sha256": "7bc5d3ca323311c4df9eb1945e8591b503455f3e84a26a4143ebec24bd85f5db",
+    "changes": "Portable input/output paths and filenames; report-only text omitted where applicable. Steps 09 and 14 have explicit documented changes in docs/METHODS_AND_LIMITATIONS.md."
+  },
+  {
+    "script": "scripts/13_refine_candidate_pairs.py",
+    "original": "analysis/experimental_candidates55/refine_stricter.py",
+    "original_sha256": "dee43c12bef5a586604c67b5c0f4072a81ca14bfef1af97271ad0ac60d6bc04f",
+    "export_sha256": "4b67d901ba840f5ee6a206ece8c5525063fbed03b478c63694f6bd79971e44d2",
+    "changes": "Portable input/output paths and filenames; report-only text omitted where applicable. Steps 09 and 14 have explicit documented changes in docs/METHODS_AND_LIMITATIONS.md."
+  },
+  {
+    "script": "scripts/14_check_final_candidates.py",
+    "original": "analysis/candidate_geometry55/check.py",
+    "original_sha256": "b8ae9dc09f6d395f1c466922964f6b6e231f8e2d79dc62db1d25e68d5b5b8742",
+    "export_sha256": "d0b6d1fbd3e1f80b204f61e5770c798dfbafd406bbb4d4ef8508742201da44cb",
+    "changes": "Portable input/output paths and filenames; report-only text omitted where applicable. Steps 09 and 14 have explicit documented changes in docs/METHODS_AND_LIMITATIONS.md."
+  },
+  {
+    "script": "scripts/_geometry.py",
+    "original": "scripts/screen_cysteine_pairs.py",
+    "original_sha256": "4350366190198713722f39d267a56f7aaec186463fd32dfe1767ef0ebebd0e51",
+    "export_sha256": "71bda314172d65525cad55b484012332a6c5555fe5891164f3d051f21c540060",
+    "changes": "Only seven required definitions retained; original numerical formulae unchanged."
+  },
+  {
+    "script": "scripts/_paths.py",
+    "original": null,
+    "export_sha256": "60ff31093f34f9bd1a797e9c30986ecee6f4ae3906911b37a25193668f374b7e",
+    "changes": "New shared project-relative path helper."
+  }
+]

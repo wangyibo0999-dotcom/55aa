@@ -1,0 +1,122 @@
+{
+  "syntax_checked_scripts": 16,
+  "executed": [
+    {
+      "script": "01_audit_predictions.py",
+      "returncode": 0,
+      "seconds": 3.79
+    },
+    {
+      "script": "02_map_reference.py",
+      "returncode": 0,
+      "seconds": 5.16
+    },
+    {
+      "script": "03_check_superposition.py",
+      "returncode": 0,
+      "seconds": 3.88
+    },
+    {
+      "script": "04_scan_interfaces.py",
+      "returncode": 0,
+      "seconds": 4.34
+    },
+    {
+      "script": "05_build_reference_guides.py",
+      "returncode": 0,
+      "seconds": 0.52
+    },
+    {
+      "script": "06_test_rigid_placements.py",
+      "returncode": 0,
+      "seconds": 3.06
+    },
+    {
+      "script": "10_check_rebuilt_models.py",
+      "returncode": 0,
+      "seconds": 3.17
+    },
+    {
+      "script": "11_audit_interchain_clashes.py",
+      "returncode": 0,
+      "seconds": 1.48
+    },
+    {
+      "script": "12_scan_candidate_pairs.py",
+      "returncode": 0,
+      "seconds": 4.6
+    },
+    {
+      "script": "13_refine_candidate_pairs.py",
+      "returncode": 0,
+      "seconds": 0.73
+    },
+    {
+      "script": "14_check_final_candidates.py",
+      "returncode": 0,
+      "seconds": 0.62
+    }
+  ],
+  "not_rerun": [
+    "07_build_template_models.py",
+    "08_minimise_fixed_core.py",
+    "09_minimise_flexible_termini.py"
+  ],
+  "numerical_comparisons": [
+    {
+      "output": "predictions/audit.json",
+      "numeric_values_match_original": true
+    },
+    {
+      "output": "interface/spatial_audit.json",
+      "numeric_values_match_original": true
+    },
+    {
+      "output": "interface/controls_and_local_fit.json",
+      "numeric_values_match_original": true
+    },
+    {
+      "output": "interface/actual_interface.json",
+      "numeric_values_match_original": true
+    },
+    {
+      "output": "reconstruction/rigid_start_audit.json",
+      "numeric_values_match_original": true
+    },
+    {
+      "output": "candidate_scan/rank.json",
+      "numeric_values_match_original": true
+    },
+    {
+      "output": "candidate_scan/refined_stricter.json",
+      "numeric_values_match_original": true
+    }
+  ],
+  "final_pass_counts": {
+    "minimized:V31C_Q457C": 0,
+    "minimized:E30C_L223C": 0,
+    "template0_unrelaxed:V31C_Q457C": 0,
+    "template0_unrelaxed:E30C_L223C": 0,
+    "template1_unrelaxed:V31C_Q457C": 0,
+    "template1_unrelaxed:E30C_L223C": 0,
+    "template2_unrelaxed:V31C_Q457C": 3,
+    "template2_unrelaxed:E30C_L223C": 0,
+    "template3_unrelaxed:V31C_Q457C": 0,
+    "template3_unrelaxed:E30C_L223C": 0,
+    "template4_unrelaxed:V31C_Q457C": 0,
+    "template4_unrelaxed:E30C_L223C": 3
+  },
+  "final_threshold_A": 2.5,
+  "all_passing_poses_meet_threshold": true,
+  "corrected_geometry_changes": [
+    {
+      "model": "template4_unrelaxed",
+      "candidate": "E30C_L223C",
+      "chains": "G-C",
+      "previous_clearance_A": 2.475026320040099,
+      "corrected_clearance_A": 2.500500566479727
+    }
+  ],
+  "final_minimised_and_original_delivery_PDB_identical": true,
+  "full_pipeline_rerun": false
+}
